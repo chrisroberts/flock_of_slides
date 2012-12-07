@@ -1,0 +1,11 @@
+.slide {
+  background-image: url('hw-logo.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.slide::before {
+  position: absolute;
+  content: url('flock.gif');
+}
+
